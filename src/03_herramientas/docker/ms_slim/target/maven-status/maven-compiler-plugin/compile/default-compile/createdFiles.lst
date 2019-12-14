@@ -1,0 +1,6 @@
+mx/com/fractalyst/microserviciompdemo/m/LibrosREST.class
+mx/com/fractalyst/microserviciompdemo/m/Libro.class
+mx/com/fractalyst/microserviciompdemo/web/GestorDatosListener.class
+mx/com/fractalyst/microserviciompdemo/m/datos/LibroDAO.class
+mx/com/fractalyst/microserviciompdemo/web/RespuestaWeb.class
+mx/com/fractalyst/microserviciompdemo/m/AppConfiguration.class

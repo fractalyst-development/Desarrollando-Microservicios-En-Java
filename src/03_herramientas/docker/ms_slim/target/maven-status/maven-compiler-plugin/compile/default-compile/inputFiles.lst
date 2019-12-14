@@ -1,0 +1,6 @@
+/home/fractalyst/Downloads/Desarrollando-Microservicios-En-Java/src/03_herramientas/docker/ms_slim/src/main/java/mx/com/fractalyst/microserviciompdemo/m/Libro.java
+/home/fractalyst/Downloads/Desarrollando-Microservicios-En-Java/src/03_herramientas/docker/ms_slim/src/main/java/mx/com/fractalyst/microserviciompdemo/m/datos/LibroDAO.java
+/home/fractalyst/Downloads/Desarrollando-Microservicios-En-Java/src/03_herramientas/docker/ms_slim/src/main/java/mx/com/fractalyst/microserviciompdemo/web/GestorDatosListener.java
+/home/fractalyst/Downloads/Desarrollando-Microservicios-En-Java/src/03_herramientas/docker/ms_slim/src/main/java/mx/com/fractalyst/microserviciompdemo/web/RespuestaWeb.java
+/home/fractalyst/Downloads/Desarrollando-Microservicios-En-Java/src/03_herramientas/docker/ms_slim/src/main/java/mx/com/fractalyst/microserviciompdemo/m/AppConfiguration.java
+/home/fractalyst/Downloads/Desarrollando-Microservicios-En-Java/src/03_herramientas/docker/ms_slim/src/main/java/mx/com/fractalyst/microserviciompdemo/m/LibrosREST.java
