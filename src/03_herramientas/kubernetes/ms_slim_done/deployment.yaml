@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: servicio-rest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: servicio-rest
+  template:
+    metadata:
+      labels:
+        app: servicio-rest
+        tier: backend
+    spec:
+      containers:
+        - name: servicio-rest
+          image: cazucito/poc_microservicio_slim:microprofile
+          imagePullPolicy: IfNotPresent
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "200m"
+            limits:
+              memory: "512Mi"
+              cpu: "400m"
+          env:
+            - name: GET_HOSTS_FROM
+              value: dns
+          ports:
+            - containerPort: 8080
