@@ -4,3 +4,9 @@
 /src/02_aplicaciones_empresariales/WebServiceSOAPDemo/target/
 /src/02_aplicaciones_empresariales/WebServiceRESTDemo/target/
 /src/02_aplicaciones_empresariales/MicroservicioMPDemo/target/
+/src/03_herramientas/docker/ms_en_debian/target/
+/src/03_herramientas/docker/ms_sb_mvn/target/
+/src/03_herramientas/docker/ms_slim/target/
+/src/03_herramientas/jar/MicroservicioMPDemo/target/
+/src/03_herramientas/kubernetes/ms_slim/target/
+/src/03_herramientas/kubernetes/ms_slim_done/target/
