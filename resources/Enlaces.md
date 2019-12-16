@@ -26,6 +26,13 @@
 
 1. [Sitio Oficial](https://microprofile.io/)
     1. [Eclipse MicroProfile Config](https://github.com/eclipse/microprofile-config)
+    2. [Eclipse MicroProfile Fault Tolerance](https://github.com/eclipse/microprofile-fault-tolerance/)
+    3. [Eclipse MicroProfile Health Check](https://github.com/eclipse/microprofile-health)
+    4. [Eclipse MicroProfile JWT Propagation](https://github.com/eclipse/microprofile-jwt-auth)
+    5. [Eclipse MicroProfile Metrics](https://github.com/eclipse/microprofile-metrics)
+    6. [Eclipse MicroProfile OpenTracing](https://github.com/eclipse/microprofile-opentracing)
+    7. [Eclipse MicroProfile OpenAPI](https://github.com/eclipse/microprofile-open-api)
+    8. [Eclipse MicroProfile REST Client](https://github.com/eclipse/microprofile-rest-client)
 
 ## OPEN LIBERTY
 
