@@ -10,3 +10,5 @@
 /src/03_herramientas/jar/MicroservicioMPDemo/target/
 /src/03_herramientas/kubernetes/ms_slim/target/
 /src/03_herramientas/kubernetes/ms_slim_done/target/
+/src/05_desarrollo/_sol/config/target/
+/src/05_desarrollo/_sol/helidon-quickstart-mp/target/

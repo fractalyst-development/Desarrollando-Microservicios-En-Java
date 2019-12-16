@@ -2,4 +2,6 @@
 
 ## Material de apoyo al curso
 
-Información info@fractalyst.com.mx
+### CF01121219 - Desarrollando Microservicios en Java
+
+Información <info@fractalyst.com.mx>
