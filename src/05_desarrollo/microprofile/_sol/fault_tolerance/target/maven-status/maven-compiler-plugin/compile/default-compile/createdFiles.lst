@@ -1,0 +1,3 @@
+mx/com/fractalyst/pocs/mp/fault_tolerance/Fault_toleranceRestApplication.class
+mx/com/fractalyst/pocs/mp/fault_tolerance/resilient/ResilienceController.class
+mx/com/fractalyst/pocs/mp/fault_tolerance/HelloController.class
