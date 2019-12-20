@@ -1,0 +1,4 @@
+mx/com/fractalyst/pocs/mp/jwt/JwtRestApplication.class
+mx/com/fractalyst/pocs/mp/jwt/HelloController.class
+mx/com/fractalyst/pocs/mp/jwt/secure/MPJWTToken.class
+mx/com/fractalyst/pocs/mp/jwt/secure/TestSecureController.class

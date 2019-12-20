@@ -1,0 +1,69 @@
+## spring-boot-starter-actuator info
+info:
+  app:
+    name: servicio-de-clientes
+    description: Spring Cloud Eureka Cliente PoC
+    version: 0.0.1-SNAPSHOT
+  java-vendor: ${java.specification.vendor}
+# Configuration info endpoint
+spring:
+  application:
+    name: servicio-de-clientes
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#  security:
+#    enabled: false
+---
+# Para usar este perfil
+# java -D"spring.profiles.active=nodo1" -jar target/MSEurekaCliente-0.0.1-SNAPSHOT.jar
+spring:
+  profiles: nodo1
+eureka:
+  instance:
+    hostname: localhost
+    metadataMap:
+      zone: zona1
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
+server:  
+  port: ${PORT:9001}
+---
+# Para usar este perfil
+# java -D"spring.profiles.active=nodo2" -jar target/MSEurekaCliente-0.0.1-SNAPSHOT.jar
+spring:
+  profiles: nodo2
+eureka:
+  instance:
+    hostname: localhost
+    metadataMap:
+      zone: zona2
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
+server:  
+  port: ${PORT:9002}
+  
+---
+# Para usar este perfil
+# java -D"spring.profiles.active=nodo3" -jar target/MSEurekaCliente-0.0.1-SNAPSHOT.jar
+spring:
+  profiles: nodo3
+eureka:
+  instance:
+    hostname: localhost
+    metadataMap:
+      zone: zona3
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
+server:  
+  port: ${PORT:9003}
+

@@ -1,0 +1,20 @@
+# Información servicio
+spring:
+  application:
+    name: servicio-de-configuracion
+  # El predeterminado es en un repositorio Git, falso es el soporte nativo
+  cloud:
+    config:
+      server:
+        bootstrap: true
+  profiles:
+    active: native
+# Información servidor
+server:  
+  port: ${PORT:2001}
+# Servidor Eureka 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+

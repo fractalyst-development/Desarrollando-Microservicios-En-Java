@@ -1,0 +1,21 @@
+# Información servicio
+spring:
+  application:
+    name: servicio-de-configuracion
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/fractalyst-development/pocs-scsc-repo.git
+          #En un repositorio público no son requeridas credenciales
+          #username: ${github.username}
+          #password: ${github.password}
+          cloneOnStart: true
+# Información servidor
+server:  
+  port: ${PORT:2222}
+## Servidor Eureka 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

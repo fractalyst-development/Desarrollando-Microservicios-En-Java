@@ -1,0 +1,22 @@
+#containerImg {
+	position: relative;
+	width: 100%;
+}
+
+#fuente {
+	position: absolute;
+	bottom: 16px;
+	left: 32px;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#saludo {
+	position: absolute;
+	top: 16px;
+	right: 32px;
+	font-family: 'Codystar', cursive;
+	color: white;
+	text-shadow: 1px 1px #808080;
+	background-color: rgba(0, 0, 0, 0.3);
+}

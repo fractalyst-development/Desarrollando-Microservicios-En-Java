@@ -1,0 +1,21 @@
+eureka:
+  instance:
+    metadataMap:
+      zone: zona2
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: ${PORT:9998}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#
+demo:
+  nombreArchivo: servicio-de-clientes-zona2.yml
+  propiedadDinamica: 2
+app:
+  service-name: servicio-de-clientes

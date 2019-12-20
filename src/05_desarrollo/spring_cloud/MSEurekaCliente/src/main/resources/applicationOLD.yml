@@ -1,0 +1,30 @@
+## spring-boot-starter-actuator info
+info:
+  app:
+    name: servicio-cliente
+    description: Spring Cloud Eureka Cliente PoC
+    version: 0.0.1-SNAPSHOT
+  java-vendor: ${java.specification.vendor}
+# Configuration info endpoint
+spring:
+  application:
+    name: servicio-de-clientes
+
+server:
+  port: ${PORT:9030}
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URL:http://localhost:3000/eureka/}
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#  security:
+#    enabled: false
